@@ -1,0 +1,28 @@
+#map-container {
+  position: relative;
+}
+
+#ocean-map{
+  max-width: 600px;
+  max-height: 293.8px;
+}
+
+.mapInt {
+  display: flex;
+  flex-direction: column;
+}
+
+#info-box {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid #00796b;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#info-box.visible {
+  display: block;
+}
